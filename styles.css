@@ -1,0 +1,104 @@
+.image{
+    background-image: url(./neom-eOWabmCNEdg-unsplash.jpg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 10px;
+    left: 0px;
+    background-size: cover;
+}
+    
+#about{
+    display: flex;
+    justify-content: space-around;
+}
+.travel{
+    
+    text-transform: uppercase;
+   padding-left: 20px;
+    flex: 2;
+   
+}
+
+nav{display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: space-around;
+    list-style: none;
+    flex: 1;
+
+}
+
+li{
+    display: flex;
+    float: right;
+}
+#fuel{
+    text-transform:uppercase;
+    width: 300px;
+    font-size: 250%;
+}
+#ptag{
+    width: 300PX;
+    font-size: large;
+    color: red;
+    text-transform: capitalize;
+}
+.content{
+    padding-left: 40px;
+}
+.content button{
+    background-color: tomato;
+    border: none;
+    width: 15%;
+    height: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    border-radius: 30px;
+}
+.content button:hover{
+    cursor: pointer;
+}
+.page2{
+    margin-top: 50%;
+   
+    padding: 30px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.ship{
+    box-shadow: 0 4px 8px 0 rgba(139, 15, 15, 0.2);
+    width: 400px;
+    height: 400px;
+    text-align:center;
+}
+img{
+    padding-top: 20px;
+}
+
+.ship button{
+    border: none;
+    border-radius: 20px;
+    background-color: blueviolet;
+    height: 10%;
+    width: 30%;
+    cursor: pointer;
+}
+footer{
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+li{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+}
+div{ margin:20px;
+   
+}
+h2{text-align: center;}
